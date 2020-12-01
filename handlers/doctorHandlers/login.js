@@ -15,8 +15,6 @@ function doctorLogin(req,res,next){
 
         }
        
-       
-
         res.status(200).send(1);
         next();
        }
